@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1240" width="1600" height="1240" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Mad 1: connecting target Xs with R/T constraints</title>
+  <desc id="desc">Four panels show connecting T1 through J3, fixing a C block when T2 is connected, adding the final A block to reach T4 through T3, and verifying the completed layout.</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8.3" refY="5" markerWidth="4.8" markerHeight="4.8" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M 0 1 L 9 5 L 0 9 Z" fill="#176ac0" />
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8.3" refY="5" markerWidth="4.8" markerHeight="4.8" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M 0 1 L 9 5 L 0 9 Z" fill="#e63858" />
+    </marker>
+  </defs>
+  <rect width="1600" height="1240" rx="26" fill="#f1f5f9" />
+  <text x="32" y="50" font-size="34" fill="#16304b" font-weight="700">Mad 1 | Route search and R/T decisions</text>
+  <g>
+    <rect x="32" y="90" width="752" height="510" rx="20" fill="#fff" stroke="#d4e0ed" stroke-width="1.5" />
+    <text x="58" y="128" font-size="24" fill="#16304b" font-weight="700">01 Connect T1 via J3</text>
+    <g>
+      <rect x="102" y="190" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="190" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="222" y="237" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o/C</text>
+      <rect x="262" y="190" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="302" y="237" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o/C</text>
+      <rect x="342" y="190" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="102" y="270" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="270" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="262" y="270" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="302" y="317" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o/C</text>
+      <rect x="342" y="270" width="80" height="80" fill="#fff1d8" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="382" y="317" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">A/C</text>
+      <rect x="102" y="350" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="350" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="222" y="397" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o/C</text>
+      <rect x="262" y="350" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="302" y="397" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o/C</text>
+      <rect x="342" y="350" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="102" y="430" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="430" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="222" y="477" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o/C</text>
+      <rect x="262" y="430" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="342" y="430" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+    </g>
+    <polyline points="182,470 222,430 262,390 302,350 342,310 302,270 262,230 222,190" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="198.8" y1="453.2" x2="215.6" y2="436.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="238.8" y1="413.2" x2="255.6" y2="396.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="278.8" y1="373.2" x2="295.6" y2="356.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="318.8" y1="333.2" x2="335.6" y2="316.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="325.2" y1="293.2" x2="308.4" y2="276.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="285.2" y1="253.2" x2="268.4" y2="236.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="245.2" y1="213.2" x2="228.4" y2="196.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="182" y1="470" x2="204.0" y2="448.0" stroke="#e63858" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-red)" />
+    <circle cx="222" cy="190" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="222" cy="190" r="2.4" fill="#fff" />
+    <text x="236" y="178" font-size="20" fill="#176ac0" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T1</text>
+    <circle cx="262" cy="310" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="248" y="298" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T2</text>
+    <circle cx="182" cy="390" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="168" y="415" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T3</text>
+    <circle cx="262" cy="470" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="276" y="456" font-size="20" fill="#536984" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T4</text>
+    <circle cx="182" cy="470" r="7.5" fill="#e63858" stroke="#fff" stroke-width="2" />
+    <text x="168" y="495" font-size="21" fill="#e63858" font-weight="700" text-anchor="end">S</text>
+    <rect x="336" y="304" width="12" height="12" fill="#fff6d8" stroke="#bb6507" stroke-width="1.5" />
+    <text x="352" y="294" font-size="18" fill="#bb6507" font-weight="700">J3</text>
+    <text x="462" y="225" font-size="18" fill="#536984">Choose T1's SE arrival arm.</text>
+    <text x="462" y="259" font-size="19" fill="#bb6507" font-weight="700">J3 = (6, 3)</text>
+    <text x="462" y="293" font-size="19" fill="#bb6507" font-weight="700">r2c4 needs R = 1</text>
+    <text x="462" y="327" font-size="18" fill="#536984">Allowed block: A or C</text>
+    <text x="462" y="361" font-size="19" fill="#176ac0" font-weight="700">Straight cells need T = 1.</text>
+    <text x="462" y="395" font-size="18" fill="#536984">Their allowed types: o or C</text>
+    <text x="58" y="568" font-size="15" fill="#536984">Rows and columns in rNcN labels start at 1.</text>
+  </g>
+  <g>
+    <rect x="816" y="90" width="752" height="510" rx="20" fill="#fff" stroke="#d4e0ed" stroke-width="1.5" />
+    <text x="842" y="128" font-size="24" fill="#16304b" font-weight="700">02 Connect T2; fix C and A</text>
+    <g>
+      <rect x="886" y="190" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="190" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1006" y="237" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o</text>
+      <rect x="1046" y="190" width="80" height="80" fill="#d5f5ef" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1086" y="237" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">C</text>
+      <rect x="1126" y="190" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="886" y="270" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="270" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1046" y="270" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1086" y="317" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o</text>
+      <rect x="1126" y="270" width="80" height="80" fill="#e9f1fc" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1166" y="317" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">A</text>
+      <rect x="886" y="350" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="350" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1006" y="397" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o</text>
+      <rect x="1046" y="350" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1086" y="397" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o</text>
+      <rect x="1126" y="350" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="886" y="430" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="430" width="80" height="80" fill="#eff6ff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1006" y="477" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">o</text>
+      <rect x="1046" y="430" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1126" y="430" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+    </g>
+    <polyline points="966,470 1006,430 1046,390 1086,350 1126,310 1086,270 1046,230 1006,190" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="982.8" y1="453.2" x2="999.6" y2="436.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1022.8" y1="413.2" x2="1039.6" y2="396.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1062.8" y1="373.2" x2="1079.6" y2="356.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1102.8" y1="333.2" x2="1119.6" y2="316.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1109.2" y1="293.2" x2="1092.4" y2="276.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1069.2" y1="253.2" x2="1052.4" y2="236.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1029.2" y1="213.2" x2="1012.4" y2="196.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <polyline points="1086,270 1046,310" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="1069.2" y1="286.8" x2="1052.4" y2="303.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="966" y1="470" x2="988.0" y2="448.0" stroke="#e63858" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-red)" />
+    <circle cx="1006" cy="190" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="1006" cy="190" r="2.4" fill="#fff" />
+    <text x="1020" y="178" font-size="20" fill="#176ac0" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T1</text>
+    <circle cx="1046" cy="310" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="1046" cy="310" r="2.4" fill="#fff" />
+    <text x="1032" y="298" font-size="20" fill="#176ac0" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T2</text>
+    <circle cx="966" cy="390" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="952" y="415" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T3</text>
+    <circle cx="1046" cy="470" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="1060" y="456" font-size="20" fill="#536984" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T4</text>
+    <circle cx="966" cy="470" r="7.5" fill="#e63858" stroke="#fff" stroke-width="2" />
+    <text x="952" y="495" font-size="21" fill="#e63858" font-weight="700" text-anchor="end">S</text>
+    <text x="1246" y="225" font-size="18" fill="#536984">At (5, 2), add reflection.</text>
+    <text x="1246" y="259" font-size="18" fill="#536984">r1c3 already needs T = 1.</text>
+    <text x="1246" y="293" font-size="19" fill="#176ac0" font-weight="700">R = 1 and T = 1 -&gt; C</text>
+    <text x="1246" y="327" font-size="18" fill="#536984">The only C is now used.</text>
+    <text x="1246" y="361" font-size="19" fill="#176ac0" font-weight="700">r2c4 can only be A.</text>
+    <text x="1246" y="395" font-size="18" fill="#536984">Inventory left: 1 A</text>
+    <text x="842" y="568" font-size="15" fill="#536984">Rows and columns in rNcN labels start at 1.</text>
+  </g>
+  <g>
+    <rect x="32" y="626" width="752" height="510" rx="20" fill="#fff" stroke="#d4e0ed" stroke-width="1.5" />
+    <text x="58" y="664" font-size="24" fill="#16304b" font-weight="700">03 Connect T4 through T3</text>
+    <g>
+      <rect x="102" y="726" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="726" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="262" y="726" width="80" height="80" fill="#d5f5ef" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="302" y="773" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">C</text>
+      <rect x="342" y="726" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="102" y="806" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="806" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="262" y="806" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="342" y="806" width="80" height="80" fill="#e9f1fc" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="382" y="853" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">A</text>
+      <rect x="102" y="886" width="80" height="80" fill="#e9f1fc" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="142" y="933" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">A</text>
+      <rect x="182" y="886" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="262" y="886" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="342" y="886" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="102" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="182" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="262" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="342" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+    </g>
+    <polyline points="182,1006 222,966 262,926 302,886 342,846 302,806 262,766 222,726" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="198.8" y1="989.2" x2="215.6" y2="972.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="238.8" y1="949.2" x2="255.6" y2="932.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="278.8" y1="909.2" x2="295.6" y2="892.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="318.8" y1="869.2" x2="335.6" y2="852.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="325.2" y1="829.2" x2="308.4" y2="812.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="285.2" y1="789.2" x2="268.4" y2="772.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="245.2" y1="749.2" x2="228.4" y2="732.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <polyline points="302,806 262,846 222,886 182,926 222,966 262,1006 302,1046" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="285.2" y1="822.8" x2="268.4" y2="839.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="245.2" y1="862.8" x2="228.4" y2="879.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="205.2" y1="902.8" x2="188.4" y2="919.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="198.8" y1="942.8" x2="215.6" y2="959.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="238.8" y1="982.8" x2="255.6" y2="999.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="278.8" y1="1022.8" x2="295.6" y2="1039.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="182" y1="1006" x2="204.0" y2="984.0" stroke="#e63858" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-red)" />
+    <circle cx="222" cy="726" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="222" cy="726" r="2.4" fill="#fff" />
+    <text x="236" y="714" font-size="20" fill="#176ac0" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T1</text>
+    <circle cx="262" cy="846" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="262" cy="846" r="2.4" fill="#fff" />
+    <text x="248" y="834" font-size="20" fill="#176ac0" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T2</text>
+    <circle cx="182" cy="926" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="182" cy="926" r="2.4" fill="#fff" />
+    <text x="168" y="951" font-size="20" fill="#176ac0" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T3</text>
+    <circle cx="262" cy="1006" r="8.5" fill="#176ac0" stroke="#176ac0" stroke-width="2.6" />
+    <circle cx="262" cy="1006" r="2.4" fill="#fff" />
+    <text x="276" y="992" font-size="20" fill="#176ac0" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T4</text>
+    <circle cx="182" cy="1006" r="7.5" fill="#e63858" stroke="#fff" stroke-width="2" />
+    <text x="168" y="1031" font-size="21" fill="#e63858" font-weight="700" text-anchor="end">S</text>
+    <text x="462" y="761" font-size="18" fill="#536984">At T3 = (2, 5), turn SE.</text>
+    <text x="462" y="795" font-size="19" fill="#176ac0" font-weight="700">r3c1 needs R = 1.</text>
+    <text x="462" y="829" font-size="19" fill="#176ac0" font-weight="700">No C remains: r3c1 = A</text>
+    <text x="462" y="863" font-size="18" fill="#536984">The new ray passes T4.</text>
+    <text x="462" y="897" font-size="18" fill="#536984">T3 is hit along this route.</text>
+    <text x="462" y="931" font-size="18" fill="#536984">All movable blocks are used.</text>
+    <text x="58" y="1104" font-size="15" fill="#536984">Rows and columns in rNcN labels start at 1.</text>
+  </g>
+  <g>
+    <rect x="816" y="626" width="752" height="510" rx="20" fill="#fff" stroke="#d4e0ed" stroke-width="1.5" />
+    <text x="842" y="664" font-size="24" fill="#16304b" font-weight="700">04 Verify the complete layout</text>
+    <g>
+      <rect x="886" y="726" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="726" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1046" y="726" width="80" height="80" fill="#d5f5ef" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1086" y="773" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">C</text>
+      <rect x="1126" y="726" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="886" y="806" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="806" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1046" y="806" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1126" y="806" width="80" height="80" fill="#e9f1fc" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="1166" y="853" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">A</text>
+      <rect x="886" y="886" width="80" height="80" fill="#e9f1fc" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="926" y="933" font-size="21" fill="#16304b" font-weight="600" text-anchor="middle">A</text>
+      <rect x="966" y="886" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1046" y="886" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1126" y="886" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="886" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="966" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1046" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1126" y="966" width="80" height="80" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+    </g>
+    <polyline points="966,1006 1006,966 1046,926 1086,886 1126,846 1086,806 1046,766 1006,726" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="982.8" y1="989.2" x2="999.6" y2="972.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1022.8" y1="949.2" x2="1039.6" y2="932.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1062.8" y1="909.2" x2="1079.6" y2="892.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1102.8" y1="869.2" x2="1119.6" y2="852.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1109.2" y1="829.2" x2="1092.4" y2="812.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1069.2" y1="789.2" x2="1052.4" y2="772.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1029.2" y1="749.2" x2="1012.4" y2="732.4" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <polyline points="1086,806 1046,846 1006,886 966,926 1006,966 1046,1006 1086,1046" fill="none" stroke="#176ac0" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+    <line x1="1069.2" y1="822.8" x2="1052.4" y2="839.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1029.2" y1="862.8" x2="1012.4" y2="879.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="989.2" y1="902.8" x2="972.4" y2="919.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="982.8" y1="942.8" x2="999.6" y2="959.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1022.8" y1="982.8" x2="1039.6" y2="999.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="1062.8" y1="1022.8" x2="1079.6" y2="1039.6" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+    <line x1="966" y1="1006" x2="988.0" y2="984.0" stroke="#e63858" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-red)" />
+    <circle cx="1006" cy="726" r="8.5" fill="#15803d" stroke="#15803d" stroke-width="2.6" />
+    <circle cx="1006" cy="726" r="2.4" fill="#fff" />
+    <text x="1020" y="714" font-size="20" fill="#15803d" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T1</text>
+    <circle cx="1046" cy="846" r="8.5" fill="#15803d" stroke="#15803d" stroke-width="2.6" />
+    <circle cx="1046" cy="846" r="2.4" fill="#fff" />
+    <text x="1032" y="834" font-size="20" fill="#15803d" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T2</text>
+    <circle cx="966" cy="926" r="8.5" fill="#15803d" stroke="#15803d" stroke-width="2.6" />
+    <circle cx="966" cy="926" r="2.4" fill="#fff" />
+    <text x="952" y="951" font-size="20" fill="#15803d" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T3</text>
+    <circle cx="1046" cy="1006" r="8.5" fill="#15803d" stroke="#15803d" stroke-width="2.6" />
+    <circle cx="1046" cy="1006" r="2.4" fill="#fff" />
+    <text x="1060" y="992" font-size="20" fill="#15803d" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T4</text>
+    <circle cx="966" cy="1006" r="7.5" fill="#e63858" stroke="#fff" stroke-width="2" />
+    <text x="952" y="1031" font-size="21" fill="#e63858" font-weight="700" text-anchor="end">S</text>
+    <text x="1246" y="761" font-size="19" fill="#15803d" font-weight="700">All four targets are hit.</text>
+    <text x="1246" y="795" font-size="18" fill="#536984">Movable inventory used:</text>
+    <text x="1246" y="829" font-size="19" fill="#176ac0" font-weight="700">A = 2, B = 0, C = 1</text>
+    <text x="1246" y="863" font-size="18" fill="#536984">A: R = 1, T = 0</text>
+    <text x="1246" y="897" font-size="18" fill="#536984">C: R = 1, T = 1</text>
+    <text x="1246" y="931" font-size="18" fill="#536984">Replay from S verifies the path.</text>
+    <text x="842" y="1104" font-size="15" fill="#536984">Rows and columns in rNcN labels start at 1.</text>
+  </g>
+  <line x1="42" y1="1174" x2="92" y2="1174" stroke="#176ac0" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-blue)" />
+  <text x="108" y="1180" font-size="18" fill="#536984">Connected optical path</text>
+  <line x1="502" y1="1174" x2="552" y2="1174" stroke="#e63858" stroke-width="3.7" stroke-linecap="round" marker-end="url(#arrow-red)" />
+  <text x="568" y="1180" font-size="18" fill="#536984">Source and initial direction</text>
+  <rect x="1040" y="1166" width="18" height="18" fill="#fff1d8" stroke="#9fb2c8" />
+  <text x="1070" y="1180" font-size="18" fill="#536984">Cell label: remaining block types</text>
+  <text x="42" y="1215" font-size="17" fill="#536984">o = empty. Arrows show forward light travel; the search connects routes backward from targets.</text>
+</svg>

@@ -1,0 +1,18 @@
+# Mad 1 example transcribed from the Fall 2026 assignment.
+# Coordinates use half a block as one unit; +x is right, +y is down.
+GRID START
+o o o o
+o o o o
+o o o o
+o o o o
+GRID STOP
+
+A 2
+C 1
+
+L 2 7 1 -1
+
+P 3 0
+P 4 3
+P 2 5
+P 4 7

@@ -1,0 +1,25 @@
+BFF benchmark fixture source
+============================
+
+Repository: https://github.com/lelinz174125/Lazor_Project
+Directory: https://github.com/lelinz174125/Lazor_Project/tree/main/2.Store_bff_file
+Retrieved: 2026-11-03
+
+These are input puzzle data only. No solver implementation or other code from
+that repository was copied into this project.
+
+Files:
+  dark_1.bff
+  mad_1.bff
+  mad_4.bff
+  mad_7.bff
+  numbered_6.bff
+  showstopper_4.bff
+  tiny_5.bff
+  yarn_5.bff
+
+Local normalization:
+  showstopper_4.bff ends with two non-BFF Python-expression notes upstream.
+  Those two lines have been retained as comments so a strict BFF reader can
+  parse the fixture. Its grid, inventory, laser source, and target are unchanged.
+  All other downloaded BFF files are unchanged.

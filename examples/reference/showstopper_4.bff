@@ -1,0 +1,15 @@
+GRID START
+B o o
+o o o
+o o o
+GRID STOP
+
+A 3
+B 3
+
+L 3 6 -1 -1
+
+P 2 3
+# Upstream stray non-BFF notes (commented locally):
+# A = [[B,o, o], [o, o, o]]
+# A[i][j]

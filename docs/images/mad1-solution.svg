@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="384" viewBox="0 0 384 384" role="img" aria-labelledby="title description" font-family="Arial, sans-serif">
+  <title id="title">Lazor solution</title>
+  <desc id="description">Target-X constraint search. VALID SOLUTION. White A blocks reflect, dark B blocks absorb, glass C blocks split. Red lines show laser paths. Bright targets were hit; dark rings were missed. Small diamonds mark sources and their directions. Metal pins mark original fixed blocks.</desc>
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#535158" />
+      <stop offset="1" stop-color="#2b2a30" />
+    </linearGradient>
+    <linearGradient id="slot" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#68676d" />
+      <stop offset="1" stop-color="#535258" />
+    </linearGradient>
+    <linearGradient id="reflect" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#c5c9cf" />
+    </linearGradient>
+    <linearGradient id="opaque" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#49474d" />
+      <stop offset="1" stop-color="#1e1d23" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#9daebc" />
+      <stop offset="1" stop-color="#5c6976" />
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#08070b" flood-opacity="0.8" />
+    </filter>
+  </defs>
+  <rect width="384" height="384" rx="18" fill="url(#board)" />
+  <g id="grid">
+    <rect x="36" y="36" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="0" data-row="0" data-kind="o" />
+    <rect x="116" y="36" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="1" data-row="0" data-kind="o" />
+    <rect x="196" y="36" width="72" height="72" rx="12" fill="url(#glass)" stroke="#25242b" stroke-width="2" stroke-opacity="0.9" filter="url(#shadow)" data-column="2" data-row="0" data-kind="C" />
+    <rect x="200" y="40" width="64" height="64" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.19" />
+    <path d="M 207 71 L 240 43 L 258 43 L 207 89 Z" fill="#ffffff" fill-opacity="0.15" />
+    <text x="252" y="97" text-anchor="middle" font-size="13" font-weight="bold" fill="#d9e2eb" fill-opacity="0.65">C</text>
+    <rect x="276" y="36" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="3" data-row="0" data-kind="o" />
+    <rect x="36" y="116" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="0" data-row="1" data-kind="o" />
+    <rect x="116" y="116" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="1" data-row="1" data-kind="o" />
+    <rect x="196" y="116" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="2" data-row="1" data-kind="o" />
+    <rect x="276" y="116" width="72" height="72" rx="12" fill="url(#reflect)" stroke="#25242b" stroke-width="2" stroke-opacity="0.9" filter="url(#shadow)" data-column="3" data-row="1" data-kind="A" />
+    <rect x="280" y="120" width="64" height="64" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.45" />
+    <text x="332" y="177" text-anchor="middle" font-size="13" font-weight="bold" fill="#58616b" fill-opacity="0.65">A</text>
+    <rect x="36" y="196" width="72" height="72" rx="12" fill="url(#reflect)" stroke="#25242b" stroke-width="2" stroke-opacity="0.9" filter="url(#shadow)" data-column="0" data-row="2" data-kind="A" />
+    <rect x="40" y="200" width="64" height="64" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.45" />
+    <text x="92" y="257" text-anchor="middle" font-size="13" font-weight="bold" fill="#58616b" fill-opacity="0.65">A</text>
+    <rect x="116" y="196" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="1" data-row="2" data-kind="o" />
+    <rect x="196" y="196" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="2" data-row="2" data-kind="o" />
+    <rect x="276" y="196" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="3" data-row="2" data-kind="o" />
+    <rect x="36" y="276" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="0" data-row="3" data-kind="o" />
+    <rect x="116" y="276" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="1" data-row="3" data-kind="o" />
+    <rect x="196" y="276" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="2" data-row="3" data-kind="o" />
+    <rect x="276" y="276" width="72" height="72" rx="12" fill="url(#slot)" stroke="#86838c" stroke-width="1" stroke-opacity="0.45" filter="none" data-column="3" data-row="3" data-kind="o" />
+  </g>
+  <g id="rays" stroke="#ff555c" stroke-width="2.6" stroke-linecap="round" filter="url(#glow)">
+    <line x1="112" y1="312" x2="152" y2="272" />
+    <line x1="152" y1="272" x2="192" y2="232" />
+    <line x1="192" y1="232" x2="232" y2="192" />
+    <line x1="232" y1="192" x2="272" y2="152" />
+    <line x1="272" y1="152" x2="232" y2="112" />
+    <line x1="232" y1="112" x2="192" y2="72" />
+    <line x1="232" y1="112" x2="192" y2="152" />
+    <line x1="192" y1="72" x2="152" y2="32" />
+    <line x1="192" y1="152" x2="152" y2="192" />
+    <line x1="152" y1="192" x2="112" y2="232" />
+    <line x1="112" y1="232" x2="152" y2="272" />
+    <line x1="152" y1="272" x2="192" y2="312" />
+    <line x1="192" y1="312" x2="232" y2="352" />
+  </g>
+  <g id="targets">
+    <circle cx="112" cy="232" r="7" stroke="#ff505a" stroke-width="3" fill="#fff8f5" filter="url(#glow)" data-status="hit" data-x="2" data-y="5" />
+    <circle cx="152" cy="32" r="7" stroke="#ff505a" stroke-width="3" fill="#fff8f5" filter="url(#glow)" data-status="hit" data-x="3" data-y="0" />
+    <circle cx="192" cy="152" r="7" stroke="#ff505a" stroke-width="3" fill="#fff8f5" filter="url(#glow)" data-status="hit" data-x="4" data-y="3" />
+    <circle cx="192" cy="312" r="7" stroke="#ff505a" stroke-width="3" fill="#fff8f5" filter="url(#glow)" data-status="hit" data-x="4" data-y="7" />
+  </g>
+  <g id="lasers">
+    <path d="M 112 306 L 118 312 L 112 318 L 106 312 Z" fill="#ff4c57" filter="url(#glow)" />
+    <line x1="112" y1="312" x2="121" y2="303" stroke="#fff2ee" stroke-width="2" stroke-linecap="round" />
+    <circle cx="112" cy="312" r="2" fill="#ffffff" data-x="2" data-y="7" data-vx="1" data-vy="-1" />
+  </g>
+</svg>

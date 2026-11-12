@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" width="1440" height="720" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Mad 1: board and target X candidates</title>
+  <desc id="desc">Two 4 by 4 boards show the laser source and four targets, followed by their diagonal candidate lines and three potential turn intersections.</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8.3" refY="5" markerWidth="4.8" markerHeight="4.8" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M 0 1 L 9 5 L 0 9 Z" fill="#176ac0" />
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8.3" refY="5" markerWidth="4.8" markerHeight="4.8" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M 0 1 L 9 5 L 0 9 Z" fill="#e63858" />
+    </marker>
+  </defs>
+  <rect width="1440" height="720" rx="26" fill="#f1f5f9" />
+  <text x="32" y="51" font-size="34" fill="#16304b" font-weight="700">Mad 1 | Board and target X candidates</text>
+  <g>
+    <rect x="32" y="86" width="672" height="552" rx="20" fill="#fff" stroke="#d4e0ed" stroke-width="1.5" />
+    <text x="58" y="124" font-size="24" fill="#16304b" font-weight="700">01 Initial puzzle</text>
+    <text x="58" y="153" font-size="17" fill="#536984">Movable inventory: 2 A blocks + 1 C block</text>
+    <g>
+      <rect x="140" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="240" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="340" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="440" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="140" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="240" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="340" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="440" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="140" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="240" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="340" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="440" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="140" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="240" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="340" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="440" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="140" y="188" font-size="16" fill="#536984" text-anchor="middle">0</text>
+      <text x="121" y="210" font-size="16" fill="#536984" text-anchor="end">0</text>
+      <text x="240" y="188" font-size="16" fill="#536984" text-anchor="middle">2</text>
+      <text x="121" y="310" font-size="16" fill="#536984" text-anchor="end">2</text>
+      <text x="340" y="188" font-size="16" fill="#536984" text-anchor="middle">4</text>
+      <text x="121" y="410" font-size="16" fill="#536984" text-anchor="end">4</text>
+      <text x="440" y="188" font-size="16" fill="#536984" text-anchor="middle">6</text>
+      <text x="121" y="510" font-size="16" fill="#536984" text-anchor="end">6</text>
+      <text x="540" y="188" font-size="16" fill="#536984" text-anchor="middle">8</text>
+      <text x="121" y="610" font-size="16" fill="#536984" text-anchor="end">8</text>
+    </g>
+    <line x1="240" y1="555" x2="281.0" y2="514.0" stroke="#e63858" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-red)" />
+    <circle cx="290" cy="205" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="304" y="229" font-size="20" fill="#536984" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T1</text>
+    <circle cx="340" cy="355" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="326" y="343" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T2</text>
+    <circle cx="240" cy="455" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="226" y="480" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T3</text>
+    <circle cx="340" cy="555" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="354" y="541" font-size="20" fill="#536984" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T4</text>
+    <circle cx="240" cy="555" r="7.5" fill="#e63858" stroke="#fff" stroke-width="2" />
+    <text x="226" y="580" font-size="21" fill="#e63858" font-weight="700" text-anchor="end">S</text>
+  </g>
+  <g>
+    <rect x="736" y="86" width="672" height="552" rx="20" fill="#fff" stroke="#d4e0ed" stroke-width="1.5" />
+    <text x="762" y="124" font-size="24" fill="#16304b" font-weight="700">02 Candidate directions and intersections</text>
+    <text x="762" y="153" font-size="17" fill="#536984">Source extension: y = -x + 9</text>
+    <g>
+      <rect x="844" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="944" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1044" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1144" y="205" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="844" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="944" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1044" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1144" y="305" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="844" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="944" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1044" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1144" y="405" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="844" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="944" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1044" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <rect x="1144" y="505" width="100" height="100" fill="#fff" stroke="#9fb2c8" stroke-width="1.3" />
+      <text x="844" y="188" font-size="16" fill="#536984" text-anchor="middle">0</text>
+      <text x="825" y="210" font-size="16" fill="#536984" text-anchor="end">0</text>
+      <text x="944" y="188" font-size="16" fill="#536984" text-anchor="middle">2</text>
+      <text x="825" y="310" font-size="16" fill="#536984" text-anchor="end">2</text>
+      <text x="1044" y="188" font-size="16" fill="#536984" text-anchor="middle">4</text>
+      <text x="825" y="410" font-size="16" fill="#536984" text-anchor="end">4</text>
+      <text x="1144" y="188" font-size="16" fill="#536984" text-anchor="middle">6</text>
+      <text x="825" y="510" font-size="16" fill="#536984" text-anchor="end">6</text>
+      <text x="1244" y="188" font-size="16" fill="#536984" text-anchor="middle">8</text>
+      <text x="825" y="610" font-size="16" fill="#536984" text-anchor="end">8</text>
+    </g>
+    <line x1="1194.0" y1="205" x2="1244" y2="255" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="1094.0" y1="205" x2="1244" y2="355" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="994.0" y1="205" x2="1244" y2="455" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="894.0" y1="205" x2="1244" y2="555" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="255" x2="1194.0" y2="605" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="355" x2="1094.0" y2="605" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="455" x2="994.0" y2="605" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="555" x2="894.0" y2="605" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="255" x2="894.0" y2="205" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="355" x2="994.0" y2="205" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="455" x2="1094.0" y2="205" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="555" x2="1194.0" y2="205" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="894.0" y1="605" x2="1244" y2="255" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="994.0" y1="605" x2="1244" y2="355" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="1094.0" y1="605" x2="1244" y2="455" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="1194.0" y1="605" x2="1244" y2="555" stroke="#dfe7f1" stroke-width="1.3" stroke-linecap="round" />
+    <line x1="844" y1="355" x2="994.0" y2="205" stroke="#7b45bb" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.88" />
+    <line x1="844" y1="555" x2="1194.0" y2="205" stroke="#7b45bb" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.88" />
+    <line x1="994.0" y1="605" x2="1244" y2="355" stroke="#7b45bb" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.88" />
+    <line x1="994.0" y1="205" x2="1244" y2="455" stroke="#7b45bb" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.88" />
+    <line x1="894.0" y1="205" x2="1244" y2="555" stroke="#7b45bb" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.88" />
+    <line x1="844" y1="355" x2="1094.0" y2="605" stroke="#7b45bb" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.88" />
+    <line x1="944" y1="555" x2="1244" y2="255" stroke="#e63858" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6" />
+    <rect x="988.5" y="499.5" width="11" height="11" rx="1" fill="#fff6d8" stroke="#bb6507" stroke-width="1.6" />
+    <rect x="1006" y="491" width="46" height="29" rx="7" fill="#fff6d8" />
+    <text x="1029" y="512" font-size="19" fill="#bb6507" font-weight="700" text-anchor="middle">J1</text>
+    <rect x="1088.5" y="399.5" width="11" height="11" rx="1" fill="#fff6d8" stroke="#bb6507" stroke-width="1.6" />
+    <rect x="1106" y="391" width="46" height="29" rx="7" fill="#fff6d8" />
+    <text x="1129" y="412" font-size="19" fill="#bb6507" font-weight="700" text-anchor="middle">J2</text>
+    <rect x="1138.5" y="349.5" width="11" height="11" rx="1" fill="#fff6d8" stroke="#bb6507" stroke-width="1.6" />
+    <rect x="1156" y="341" width="46" height="29" rx="7" fill="#fff6d8" />
+    <text x="1179" y="362" font-size="19" fill="#bb6507" font-weight="700" text-anchor="middle">J3</text>
+    <line x1="944" y1="555" x2="985.0" y2="514.0" stroke="#e63858" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-red)" />
+    <circle cx="994" cy="205" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="1008" y="229" font-size="20" fill="#536984" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T1</text>
+    <circle cx="1044" cy="355" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="1030" y="343" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T2</text>
+    <circle cx="944" cy="455" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="930" y="480" font-size="20" fill="#536984" font-weight="700" text-anchor="end" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T3</text>
+    <circle cx="1044" cy="555" r="8.5" fill="#fff" stroke="#536984" stroke-width="2.6" />
+    <text x="1058" y="541" font-size="20" fill="#536984" font-weight="700" text-anchor="start" paint-order="stroke" stroke="#fff" stroke-width="3.5" stroke-linejoin="round">T4</text>
+    <circle cx="944" cy="555" r="7.5" fill="#e63858" stroke="#fff" stroke-width="2" />
+    <text x="930" y="580" font-size="21" fill="#e63858" font-weight="700" text-anchor="end">S</text>
+  </g>
+  <line x1="42" y1="674" x2="90" y2="674" stroke="#e63858" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6" />
+  <text x="104" y="680" font-size="18" fill="#536984">Source direction / extension</text>
+  <line x1="500" y1="674" x2="548" y2="674" stroke="#7b45bb" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6" />
+  <text x="562" y="680" font-size="18" fill="#536984">Target X candidate lines</text>
+  <rect x="1008" y="668" width="12" height="12" fill="#fff6d8" stroke="#bb6507" stroke-width="1.5" />
+  <text x="1034" y="680" font-size="18" fill="#536984">J1-J3: possible turns</text>
+</svg>
