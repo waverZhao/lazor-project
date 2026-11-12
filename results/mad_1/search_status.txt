@@ -1,0 +1,7 @@
+Input: examples/mad_1.bff
+Algorithm: Target-X constraint search
+Status: solved
+Candidates tested: 1
+States expanded: 15
+Search time: 0.001178 seconds
+Reason: A solution was verified.

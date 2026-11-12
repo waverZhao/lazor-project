@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-11T23:06:38.488798+00:00",
+  "version": "Target-X solver with histogram inventory propagation",
+  "python": "3.9.6 or newer; standard library only",
+  "unit_tests": {
+    "run": 26,
+    "passed": 26
+  },
+  "merged_vs_frozen_original_propagation_queries": 27000,
+  "propagation_outputs_identical": true,
+  "reference_cases": {
+    "solved": 8,
+    "verified": 8,
+    "total_seconds": 0.02380074899999997
+  },
+  "hard_cases_120_seconds_after_histogram": "not_run",
+  "source_sha256": {
+    "block_laser.py": "d37799185689348135083ca9d654eabd8afa612083ad959ff0ebabe0ec565792",
+    "constraints.py": "25fd29c3e91fde4c5d09dd15f4189e2feff418d85713e586cc7f89bece2053d4",
+    "file_io.py": "220d5b7af9c5bccae89f05c5388d8a57e680bc4064026c8f049998653c0a8c3a",
+    "main.py": "bdc086b82ac70e0485958c8a541b9ca0695db3e527b73b15a36b61b167bc6a36",
+    "output.py": "7d24e272f7e591f91a57cb738e96b4aceb8fed8c512e8f6f06673f954a955a6a",
+    "search.py": "c0d22e04c1e0f6d6be6f7e07858734fb79276ee96dc683ba4de323cc5898b2a3",
+    "search_graph.py": "98990bce8424f5d4287bea3a9b889b4295e7099f172bc41062937b3c17ef640e",
+    "target_solver.py": "70ea7e962191ad587d57fb7043bfe4094c8a3ad7f2a42e54a2ea3ef38a4a4987"
+  }
+}

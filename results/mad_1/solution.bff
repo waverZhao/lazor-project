@@ -1,0 +1,31 @@
+# Lazor layout snapshot; not the original movable puzzle.
+# Status: VALID SOLUTION
+# All blocks currently on the board are fixed in this snapshot.
+# Unplaced inventory is retained below GRID STOP.
+# Block coordinates in comments use (column, row).
+# Algorithm: Target-X constraint search
+# Search status: solved
+# Search time: 0.001178 seconds
+# Candidate layouts tested: 1
+# Search states expanded: 15
+# Ray states in candidate simulations: 14
+# Newly placed: A (0, 2)
+# Newly placed: C (2, 0)
+# Newly placed: A (3, 1)
+GRID START
+o o C o
+o o o A
+A o o o
+o o o o
+GRID STOP
+
+A 0
+B 0
+C 0
+
+L 2 7 1 -1
+
+P 2 5
+P 3 0
+P 4 3
+P 4 7

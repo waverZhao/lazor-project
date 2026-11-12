@@ -1,0 +1,152 @@
+{
+  "created_utc": "2026-11-11T23:05:09.798115+00:00",
+  "python": "3.9.6",
+  "algorithm": "targets with histogram propagation",
+  "budget_per_case_seconds": 3,
+  "timing_scope": "Read BFF through solve return; excludes module imports, independent verification and output writing.",
+  "source_sha256": {
+    "block_laser.py": "d37799185689348135083ca9d654eabd8afa612083ad959ff0ebabe0ec565792",
+    "search_graph.py": "98990bce8424f5d4287bea3a9b889b4295e7099f172bc41062937b3c17ef640e",
+    "target_solver.py": "70ea7e962191ad587d57fb7043bfe4094c8a3ad7f2a42e54a2ea3ef38a4a4987",
+    "search.py": "c0d22e04c1e0f6d6be6f7e07858734fb79276ee96dc683ba4de323cc5898b2a3",
+    "file_io.py": "220d5b7af9c5bccae89f05c5388d8a57e680bc4064026c8f049998653c0a8c3a",
+    "constraints.py": "25fd29c3e91fde4c5d09dd15f4189e2feff418d85713e586cc7f89bece2053d4",
+    "main.py": "bdc086b82ac70e0485958c8a541b9ca0695db3e527b73b15a36b61b167bc6a36",
+    "output.py": "7d24e272f7e591f91a57cb738e96b4aceb8fed8c512e8f6f06673f954a955a6a"
+  },
+  "cases": [
+    {
+      "input": "examples/reference/dark_1.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.0007348330000000042,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 7,
+        "ray_states_processed": 9
+      },
+      "reason": "",
+      "targets_hit": 2,
+      "targets_required": 2,
+      "load_and_solve_seconds": 0.0016313329999999987
+    },
+    {
+      "input": "examples/reference/mad_1.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.0015092089999999975,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 15,
+        "ray_states_processed": 14
+      },
+      "reason": "",
+      "targets_hit": 4,
+      "targets_required": 4,
+      "load_and_solve_seconds": 0.0018192080000000027
+    },
+    {
+      "input": "examples/reference/mad_4.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.0015096669999999923,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 82,
+        "ray_states_processed": 16
+      },
+      "reason": "",
+      "targets_hit": 3,
+      "targets_required": 3,
+      "load_and_solve_seconds": 0.0018018749999999945
+    },
+    {
+      "input": "examples/reference/mad_7.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.013349166999999995,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 2889,
+        "ray_states_processed": 26
+      },
+      "reason": "",
+      "targets_hit": 5,
+      "targets_required": 5,
+      "load_and_solve_seconds": 0.013491832999999995
+    },
+    {
+      "input": "examples/reference/numbered_6.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.0010004579999999957,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 15,
+        "ray_states_processed": 15
+      },
+      "reason": "",
+      "targets_hit": 2,
+      "targets_required": 2,
+      "load_and_solve_seconds": 0.001209458999999996
+    },
+    {
+      "input": "examples/reference/showstopper_4.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.000606334,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 6,
+        "ray_states_processed": 6
+      },
+      "reason": "",
+      "targets_hit": 1,
+      "targets_required": 1,
+      "load_and_solve_seconds": 0.0008811249999999965
+    },
+    {
+      "input": "examples/reference/tiny_5.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.000657624999999995,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 7,
+        "ray_states_processed": 7
+      },
+      "reason": "",
+      "targets_hit": 2,
+      "targets_required": 2,
+      "load_and_solve_seconds": 0.0009567499999999923
+    },
+    {
+      "input": "examples/reference/yarn_5.bff",
+      "algorithm": "targets",
+      "status": "solved",
+      "verified": true,
+      "search_seconds": 0.001847291000000001,
+      "counters": {
+        "candidates_tested": 1,
+        "states_expanded": 24,
+        "ray_states_processed": 27
+      },
+      "reason": "",
+      "targets_hit": 2,
+      "targets_required": 2,
+      "load_and_solve_seconds": 0.002009165999999993
+    }
+  ],
+  "summary": {
+    "solved": 8,
+    "verified": 8,
+    "total_seconds": 0.02380074899999997
+  }
+}

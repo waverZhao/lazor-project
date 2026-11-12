@@ -43,7 +43,26 @@ A `no_solution` or `timeout` run writes a status file without generating a new s
 3. Check exact inventory and combined Hall capacity bounds. A histogram of at most 15 domain masks reduces repeated scans. On conflict, backtrack to the parent's immutable domains.
 4. Connect all targets, complete the remaining inventory by capacitated matching, and replay the board with the shared simulator. Return the first verified solution.
 
-The R/T switches are empty/x `(0,1)`, A `(1,0)`, B `(0,0)`, and C `(1,1)`. A straight edge costs 1 and a reflected edge costs 4 for search ordering. Inventory counts distinct movable blocks, including blocks used by multiple reflections.
+Each block has two switches: R controls reflection and T controls transmission. A value of 1 enables the behavior; 0 disables it.
+
+| Type | R (reflection) | T (transmission) | Outgoing light |
+| --- | :---: | :---: | --- |
+| Empty `o` / unavailable `x` | 0 | 1 | Straight |
+| A | 1 | 0 | Reflected |
+| B | 0 | 0 | Absorbed |
+| C | 1 | 1 | Straight and reflected |
+
+Route choices restrict the candidates of a movable cell:
+
+| Required behavior | R requirement | T requirement | Allowed candidates |
+| --- | :---: | :---: | --- |
+| Straight travel | Unrestricted | 1 | Empty `o` or C |
+| Reflection | 1 | Unrestricted | A or C |
+| Both in the same cell | 1 | 1 | C only |
+
+Unrestricted does not mean 0: a route requiring straight travel still allows C to produce an additional reflected ray. Candidates must also satisfy the board and inventory constraints.
+
+A straight edge costs 1 and a reflected edge costs 4 for search ordering. Inventory counts distinct movable blocks, including blocks used by multiple reflections.
 
 Core implementation: [target_solver.py](target_solver.py), [constraints.py](constraints.py), and [search_graph.py](search_graph.py).
 
@@ -73,12 +92,12 @@ The latest serial batch took **0.339 s** for reading and solving. Median time wa
 | --- | --- | --- |
 | File parsing, block placement, and result output | fangyu li | [Reader](Fangyu/file_io.py), [placement search](Fangyu/search.py), [output](Fangyu/output.py) |
 | Block classes and laser simulation; participation in basic DFS, SMT solving, source-unreachable-state pruning, and related explanations | Xingjian Yang | [Block/simulation](Xingjian/block_laser.py), [DFS](Xingjian/search.py), [SMT](Xingjian/constraint_solver.py) |
-| X-line/R/T search design, search optimization and pruning, inventory constraints and rollback, integration and testing | Me (search optimization lead) | Three core search files, `solve_targets()`, and tests |
+| X-line/R/T search design, search optimization and pruning, inventory constraints and rollback, integration and testing | weibo zhao | Three core search files, `solve_targets()`, and tests |
 
 These are the main contributions; search implementation and pruning include shared and overlapping work. Original teammate submissions are retained in [Fangyu/](Fangyu/) and [Xingjian/](Xingjian/). The project root contains the integrated program.
 
 Xingjian's algorithm contributions also include [optional source-unreachable-state pruning](Xingjian/constraint_solver.py#L300), [mathematical model and pruning principles](Xingjian/MATH_MODEL.txt), and [installation, running, and integration notes](Xingjian/README.txt). The SMT comparison program uses Z3; see its [requirements](Xingjian/requirements.txt). The block/simulation teammate's repository is [here](https://github.com/yangcong0168-dot/lazor-project/tree/1373f5a43193e81135d52a1d8e3cfc0a9c00f704).
 
-The optimized implementation follows the lead's X-line/R/T design and histogram proposal, developed with Codex assistance. Integration adapted the shared interfaces and reflection-clearance constraints.
+The optimized implementation follows weibo zhao's X-line/R/T design and histogram proposal, developed with Codex assistance. Integration adapted the shared interfaces and reflection-clearance constraints.
 
 `examples/mad_1.bff` is the course example. Other reference fixture sources are documented in [examples/reference/SOURCE.txt](examples/reference/SOURCE.txt).
