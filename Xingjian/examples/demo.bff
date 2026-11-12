@@ -1,0 +1,13 @@
+# Small integration fixture: the C block must send rays to both targets.
+GRID START
+o o
+o o
+GRID STOP
+
+A 0
+B 0
+C 1
+
+L 2 1 -1 1
+P 1 2
+P 3 2
