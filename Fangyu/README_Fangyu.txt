@@ -1,10 +1,14 @@
-Fangyu's part
+Fangyu Li's contribution
 
 Files:
   file_io.py  - read and validate .bff files
   search.py   - basic placement search; the optimization teammate can edit this file
   output.py   - write the text report, SVG path diagram, and solved .bff file
   main.py     - connect file reading, search, simulation, and output
+
+Validation:
+  file_io.py checks board rows, laser definitions, targets, and block counts.
+  main.py reports invalid input before starting the search.
 
 Integration:
   Put these four files in the same folder as the teammate's corrected
